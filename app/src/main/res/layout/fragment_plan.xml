@@ -1,0 +1,257 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        tools:context=".customer.fragments.Plan">
+
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardView"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        app:cardCornerRadius="12dp"
+        app:cardElevation="8dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="200dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/s1plans" />
+
+    </androidx.cardview.widget.CardView>
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="Select Plan"
+        android:textStyle="bold"
+        android:textColor="?attr/colorOnSurface"
+        android:textSize="18dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/cardView" />
+
+    <RadioGroup
+        android:id="@+id/rgrp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/title" >
+
+        <RadioButton
+            android:id="@+id/rb7"
+            android:layout_marginStart="16dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="8dp"
+            android:layout_width="match_parent"
+            android:textColor="@drawable/radio_button_text_color"
+            android:layout_height="wrap_content"
+            android:button="@null"
+            android:textAlignment="center"
+            android:background="@drawable/custom_radio_button"
+            android:text="Fibre Entry" />
+        <RadioButton
+            android:id="@+id/rb8"
+            android:layout_marginStart="16dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="8dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:button="@null"
+            android:textColor="@drawable/radio_button_text_color"
+            android:textAlignment="center"
+            android:background="@drawable/custom_radio_button"
+            android:text="Fibre Rural HOME WiFi / GHAR KA WiFi" />
+        <RadioButton
+            android:id="@+id/rb9"
+            android:layout_marginStart="16dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="8dp"
+            android:layout_width="match_parent"
+            android:textColor="@drawable/radio_button_text_color"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:background="@drawable/custom_radio_button"
+            android:button="@null"
+            android:text="Fibre Basic NEO" />
+        <RadioButton
+            android:id="@+id/rb10"
+            android:layout_marginStart="16dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="8dp"
+            android:layout_width="match_parent"
+            android:textColor="@drawable/radio_button_text_color"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:background="@drawable/custom_radio_button"
+            android:button="@null"
+            android:text="Fibre Basic" />
+        <RadioButton
+            android:id="@+id/rb11"
+            android:layout_marginStart="16dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="8dp"
+            android:layout_width="match_parent"
+            android:textColor="@drawable/radio_button_text_color"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:background="@drawable/custom_radio_button"
+            android:button="@null"
+            android:text="Fibre Basic Plus" />
+        <RadioButton
+            android:id="@+id/rb12"
+            android:layout_marginStart="16dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="8dp"
+            android:layout_width="match_parent"
+            android:textColor="@drawable/radio_button_text_color"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:background="@drawable/custom_radio_button"
+            android:button="@null"
+            android:text="Fibre Basic Plus OTT" />
+        <RadioButton
+            android:id="@+id/rb13"
+            android:layout_marginStart="16dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="8dp"
+            android:layout_width="match_parent"
+            android:textColor="@drawable/radio_button_text_color"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:background="@drawable/custom_radio_button"
+            android:button="@null"
+            android:text="Fibre Value OTT" />
+        <RadioButton
+            android:id="@+id/rb14"
+            android:layout_marginStart="16dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="8dp"
+            android:layout_width="match_parent"
+            android:textColor="@drawable/radio_button_text_color"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:background="@drawable/custom_radio_button"
+            android:button="@null"
+            android:text="SuperStar PremiumPlus" />
+        <RadioButton
+            android:id="@+id/rb15"
+            android:layout_marginStart="16dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="8dp"
+            android:layout_width="match_parent"
+            android:textColor="@drawable/radio_button_text_color"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:background="@drawable/custom_radio_button"
+            android:button="@null"
+            android:text="Fibre Premium Plus" />
+        <RadioButton
+            android:id="@+id/rb16"
+            android:layout_marginStart="16dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="8dp"
+            android:layout_width="match_parent"
+            android:textColor="@drawable/radio_button_text_color"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:background="@drawable/custom_radio_button"
+            android:button="@null"
+            android:text="Fibre Premium Plus OTT" />
+        <RadioButton
+            android:id="@+id/rb17"
+            android:layout_marginStart="16dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="8dp"
+            android:layout_width="match_parent"
+            android:textColor="@drawable/radio_button_text_color"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:background="@drawable/custom_radio_button"
+            android:button="@null"
+            android:text="Fibre Ultra OTT" />
+        <RadioButton
+            android:id="@+id/rb18"
+            android:layout_marginStart="16dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="8dp"
+            android:layout_width="match_parent"
+            android:textColor="@drawable/radio_button_text_color"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:background="@drawable/custom_radio_button"
+            android:button="@null"
+            android:text="Fibre Silver OTT" />
+        <RadioButton
+            android:id="@+id/rb19"
+            android:layout_marginStart="16dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="8dp"
+            android:layout_width="match_parent"
+            android:textColor="@drawable/radio_button_text_color"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:background="@drawable/custom_radio_button"
+            android:button="@null"
+            android:text="Fibre Silver Plus OTT" />
+        <RadioButton
+            android:id="@+id/rb20"
+            android:layout_marginStart="16dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="8dp"
+            android:layout_width="match_parent"
+            android:textColor="@drawable/radio_button_text_color"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:background="@drawable/custom_radio_button"
+            android:button="@null"
+            android:text="Fibre Ruby OTT" />
+
+    </RadioGroup>
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/next_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginTop="24dp"
+        android:elevation="8dp"
+        android:text="Next"
+        app:cornerRadius="8dp"
+        app:layout_constraintTop_toBottomOf="@id/rgrp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>

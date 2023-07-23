@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "991139812086",
+    "project_id": "bsnl-care",
+    "storage_bucket": "bsnl-care.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:991139812086:android:c7994156dfaa907d2592d7",
+        "android_client_info": {
+          "package_name": "com.application.bsnlcare"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "991139812086-inmr00tk92av9ru72qj3rg24d4ouou04.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCG8jStyTT5-WH9Hko5oFmBqjiaomt3MGI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "991139812086-inmr00tk92av9ru72qj3rg24d4ouou04.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
