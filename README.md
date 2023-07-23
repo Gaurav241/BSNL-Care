@@ -43,6 +43,16 @@ To build and run BSNL-Care Survey App in Android Studio, follow these steps:
 
 6. Build and run the app on an emulator or physical device.
 
+## Screenshots
+
+| Spash Screen                                        | Home Screen                                         | Student DashBoard                                     |
+|:---------------------------------------------------:|:---------------------------------------------------:|:-----------------------------------------------------:|
+| ![Screenshot 1](/media/screenshots/screenshot1.jpg) | ![Screenshot 2](/media/screenshots/screenshot2.jpg) | ![Screenshot 3](/media/screenshots/screenshot3.jpg)   |
+| Survey Screen 1                                     | Survey Screen 2                                     | Survey Screen 3                                       |
+| ![Screenshot 4](/media/screenshots/screenshot4.jpg) | ![Screenshot 5](/media/screenshots/screenshot5.jpg) | ![Screenshot 6](/media/screenshots/screenshot6.jpg)   |
+| Survey Screen 4                                     | Survey Screen 5                                     | Student Response                                           |
+| ![Screenshot 7](/media/screenshots/screenshot7.jpg) | ![Screenshot 8](/media/screenshots/screenshot8.jpg) | ![Screenshot 9](/media/screenshots/screenshot9.jpg)   |
+
 ## Contribution
 
 Contributions are welcome! If you'd like to contribute to BSNL-Care Survey App, feel free to open a pull request. We value your input and appreciate your help in making the app even better.
